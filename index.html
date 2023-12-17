@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="todolist_outline">
+
+        <!-- >>---xxx--- Add Bar starts Here ---xxx---<< -->
+        <div class="addBar">
+            <div class="addBar_Input_Outline">
+                <input type="text" class="addBar_Input" id="input1" placeholder="  Enter the to-do work" required
+                    minlength="0" maxlength="14">
+            </div>
+
+            <span class="addBar_Button_Outline">
+                <button class="addBar_Button">ADD</button>
+            </span>
+
+            <div class="optionSelected">
+                <select name="Categories" id="Categories">
+                    <option value="All">All</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </div>
+        <!-- >>---xxx--- Add Bar ends Here ---xxx---<<  -->
+
+        <div class="emptyDiv"></div>
+
+        <div class="list">
+            <!-- <div class="list_Box_Outline">
+                <div class="list_display">
+                    <input value="asdfghjklqwertyui" class="input_style"></input>
+                </div>
+                <div class="list_markButton">
+                    <span class="span_style"><i class="fa-solid fa-check i_style" style="color: #e8eaed;"></i></span>
+                </div>
+                <div class="list_deleteButton">
+                    <span class="span_style"><i class="fa-solid fa-trash i_style" style="color: #ea331f;"></i></span>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
